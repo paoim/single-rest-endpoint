@@ -1,0 +1,9 @@
+#Server Port
+server:
+  port: 8088
+# Spring Data JPA specific (create, create-drop, validate, and update)
+spring:
+  jpa:
+    hibernate:
+      ddlAuto: update
+    show-sql: false
